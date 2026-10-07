@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Step 1: Turn on flexbox and space things out */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}            
+
+
+
+/* Step 2: Style the nav links list */
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;  /*remonves bullets*/
+    margin: 0;
+    padding: 0;
+}
+    
+
+
+/* Step 3: Style the links themselves */
+.nav-links a {
+text-decoration: none;
+color: white;
+font-weight: 500;
+}
+
+.nav-links a:hover{
+    color: gold;
+}
+
+/* Step 4: Add box model styling to the  navbar*/
+.navbar {
+    box-sizing: none;
+    padding: 30px;
+    margin: 0;
+    background-color: #222;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+#hero {
+    flex: 2;
+}
+
+.box {
+    width: 200px;
+    padding: 250px;
+    border: 20px solid #d40f0f9a;
+    /* margin: 15px; */
+    background-color: lightblue; 
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    background-color: #12284d;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px 60px;
+}
+
+.background {
+    color: 
+}
+.logo-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

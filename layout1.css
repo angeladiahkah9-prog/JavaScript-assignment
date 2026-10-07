@@ -1,0 +1,14 @@
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background: gold;
+    margin-right: 5px;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: navy;
+    color: white;
+}
